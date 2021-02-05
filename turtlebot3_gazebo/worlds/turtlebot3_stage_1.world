@@ -11,9 +11,10 @@
     </include>
 
     <physics type="ode">
-      <real_time_update_rate>1000.0</real_time_update_rate>
+      <real_time_update_rate>3000</real_time_update_rate> <!-- set this 0 will maximise speed-->
       <max_step_size>0.001</max_step_size>
-      <real_time_factor>1</real_time_factor>
+      <!-- 1000 * 0.001 = 1 = realtime factor-->
+      
       <ode>
         <solver>
           <type>quick</type>
@@ -39,7 +40,7 @@
     <scene>
       <ambient>0.4 0.4 0.4 1</ambient>
       <background>0.7 0.7 0.7 1</background>
-      <shadows>true</shadows>
+      <shadows>false</shadows>
     </scene>
 
     <gui fullscreen='0'>
