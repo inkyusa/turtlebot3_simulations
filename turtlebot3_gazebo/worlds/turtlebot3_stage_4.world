@@ -12,7 +12,7 @@
 
     <physics type="ode">
       <!-- <real_time_update_rate>1000.0</real_time_update_rate> -->
-      <real_time_update_rate>0</real_time_update_rate> <!-- set this 0 will make gazebo run as fast as possible-->
+      <real_time_update_rate>2000</real_time_update_rate> <!-- set this 0 will make gazebo run as fast as possible-->
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
       <ode>
